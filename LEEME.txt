@@ -1,0 +1,6 @@
+COMANDOS PARA EJECUTAR TEST EN "LECTULANDIA.COM" COMO PROFESIONAL:
+PUEDE USAR "pybot o robot" ES INDIFERENTE
+	⁃ TEST GENERAL:
+		⁃ pybot -d Results --reporttitle "NOMBRE PARA EL REPORTE" --logtitle "NOMBRE PARA EL LOG" Lectulandia.robot
+	⁃ TEST POR TAGS:
+		⁃ pybot -T -d Reports --reporttitle "NOMBRE PARA EL REPORTE" --logtitle "NOMBRE PARA EL LOG" -n noncritical -i NOMBREDELTAG Lectulandia.robot

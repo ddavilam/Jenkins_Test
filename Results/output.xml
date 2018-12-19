@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20181219 15:38:37.425" generator="Robot 3.0.4 (Python 2.7.15 on darwin)">
+<suite source="/Users/rafaelchavez/Desktop/Prueba Jenkins/Lectulandia.robot" id="s1" name="Lectulandia">
+<test id="s1-t1" name="Lectulandia Jenkins">
+<kw type="setup" name="Abrir Navegador" library="Acceso">
+<kw name="Get Selection From User" library="Dialogs">
+<doc>Pauses test execution and asks user to select a value.</doc>
+<arguments>
+<arg>Elija su navegador de preferencia</arg>
+<arg>Chrome</arg>
+<arg>Firefox</arg>
+<arg>Opera</arg>
+<arg>Safari</arg>
+<arg>IE</arg>
+</arguments>
+<assign>
+<var>${new_browser}</var>
+</assign>
+<msg timestamp="20181219 15:38:49.574" level="INFO">${new_browser} = Chrome</msg>
+<status status="PASS" endtime="20181219 15:38:49.574" starttime="20181219 15:38:39.941"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>@{BROWSER}</arg>
+<arg>${new_browser}</arg>
+</arguments>
+<msg timestamp="20181219 15:38:49.575" level="INFO">Opening browser 'Chrome' to base url 'about:blank'.</msg>
+<status status="PASS" endtime="20181219 15:38:57.983" starttime="20181219 15:38:49.574"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:02.987" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:02.987" starttime="20181219 15:38:57.985"></status>
+</kw>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+</arguments>
+<msg timestamp="20181219 15:39:02.988" level="INFO">Opening url 'https://www.lectulandia.com'</msg>
+<status status="PASS" endtime="20181219 15:39:06.211" starttime="20181219 15:39:02.987"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:11.213" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:11.213" starttime="20181219 15:39:06.212"></status>
+</kw>
+<status status="PASS" endtime="20181219 15:39:11.213" starttime="20181219 15:38:39.940"></status>
+</kw>
+<kw name="Test Jenkins" library="Tests">
+<kw name="Login" library="Request">
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering mouse over the element ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="site-navigation"]/ul/li[3]/a</arg>
+</arguments>
+<msg timestamp="20181219 15:39:11.215" level="INFO">Simulating Mouse Over on element 'xpath=//*[@id="site-navigation"]/ul/li[3]/a'.</msg>
+<status status="PASS" endtime="20181219 15:39:11.329" starttime="20181219 15:39:11.214"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="site-navigation"]/ul/li[3]/a</arg>
+</arguments>
+<msg timestamp="20181219 15:39:11.330" level="INFO">Clicking element 'xpath=//*[@id="site-navigation"]/ul/li[3]/a'.</msg>
+<status status="PASS" endtime="20181219 15:39:13.586" starttime="20181219 15:39:11.329"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:16.588" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:16.588" starttime="20181219 15:39:13.586"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="user_login"]</arg>
+<arg>${USUARIO}</arg>
+</arguments>
+<msg timestamp="20181219 15:39:16.588" level="INFO">Typing text 'ddavilam' into text field 'xpath=//*[@id="user_login"]'.</msg>
+<status status="PASS" endtime="20181219 15:39:16.890" starttime="20181219 15:39:16.588"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:19.891" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:19.892" starttime="20181219 15:39:16.890"></status>
+</kw>
+<kw name="Input Password" library="SeleniumLibrary">
+<doc>Types the given password into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="user_pass"]</arg>
+<arg>${PASS}</arg>
+</arguments>
+<msg timestamp="20181219 15:39:19.892" level="INFO">Typing password into text field 'xpath=//*[@id="user_pass"]'.</msg>
+<status status="PASS" endtime="20181219 15:39:19.990" starttime="20181219 15:39:19.892"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:22.992" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:22.992" starttime="20181219 15:39:19.990"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering mouse over the element ``locator``.</doc>
+<arguments>
+<arg>css=#wp-submit</arg>
+</arguments>
+<msg timestamp="20181219 15:39:22.992" level="INFO">Simulating Mouse Over on element 'css=#wp-submit'.</msg>
+<status status="PASS" endtime="20181219 15:39:23.020" starttime="20181219 15:39:22.992"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css=#wp-submit</arg>
+</arguments>
+<msg timestamp="20181219 15:39:23.021" level="INFO">Clicking element 'css=#wp-submit'.</msg>
+<status status="PASS" endtime="20181219 15:39:25.680" starttime="20181219 15:39:23.020"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:30.682" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:30.682" starttime="20181219 15:39:25.681"></status>
+</kw>
+<status status="PASS" endtime="20181219 15:39:30.682" starttime="20181219 15:39:11.214"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:33.684" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:33.684" starttime="20181219 15:39:30.682"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering mouse over the element ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="site-navigation"]/ul/li[6]/form/input</arg>
+</arguments>
+<msg timestamp="20181219 15:39:33.685" level="INFO">Simulating Mouse Over on element 'xpath=//*[@id="site-navigation"]/ul/li[6]/form/input'.</msg>
+<status status="PASS" endtime="20181219 15:39:33.713" starttime="20181219 15:39:33.684"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="site-navigation"]/ul/li[6]/form/input</arg>
+</arguments>
+<msg timestamp="20181219 15:39:33.713" level="INFO">Clicking element 'xpath=//*[@id="site-navigation"]/ul/li[6]/form/input'.</msg>
+<status status="PASS" endtime="20181219 15:39:33.772" starttime="20181219 15:39:33.713"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:36.773" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:36.773" starttime="20181219 15:39:33.772"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="site-navigation"]/ul/li[6]/form/input</arg>
+<arg>${BUSQUEDA}</arg>
+</arguments>
+<msg timestamp="20181219 15:39:36.774" level="INFO">Typing text 'STEPHEN KING' into text field 'xpath=//*[@id="site-navigation"]/ul/li[6]/form/input'.</msg>
+<status status="PASS" endtime="20181219 15:39:36.889" starttime="20181219 15:39:36.773"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:39.891" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:39.891" starttime="20181219 15:39:36.889"></status>
+</kw>
+<kw name="Press Key" library="SeleniumLibrary">
+<doc>Simulates user pressing key on element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="site-navigation"]/ul/li[6]/form/input</arg>
+<arg>\\13</arg>
+</arguments>
+<status status="PASS" endtime="20181219 15:39:44.288" starttime="20181219 15:39:39.891"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:47.290" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:47.290" starttime="20181219 15:39:44.288"></status>
+</kw>
+<kw name="Mouse Down" library="SeleniumLibrary">
+<doc>Simulates pressing the left mouse button on the element ``locator``.</doc>
+<arguments>
+<arg>css=#post-50573</arg>
+</arguments>
+<msg timestamp="20181219 15:39:47.291" level="INFO">Simulating Mouse Down on element 'css=#post-50573'.</msg>
+<status status="PASS" endtime="20181219 15:39:47.338" starttime="20181219 15:39:47.290"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:39:50.339" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:39:50.339" starttime="20181219 15:39:47.338"></status>
+</kw>
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering mouse over the element ``locator``.</doc>
+<arguments>
+<arg>css=#post-46826</arg>
+</arguments>
+<msg timestamp="20181219 15:39:50.339" level="INFO">Simulating Mouse Over on element 'css=#post-46826'.</msg>
+<status status="PASS" endtime="20181219 15:39:50.370" starttime="20181219 15:39:50.339"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>css=#post-46826</arg>
+</arguments>
+<msg timestamp="20181219 15:39:50.371" level="INFO">Clicking element 'css=#post-46826'.</msg>
+<status status="PASS" endtime="20181219 15:40:02.859" starttime="20181219 15:39:50.370"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:40:05.859" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:40:05.860" starttime="20181219 15:40:02.859"></status>
+</kw>
+<kw name="Mouse Down" library="SeleniumLibrary">
+<doc>Simulates pressing the left mouse button on the element ``locator``.</doc>
+<arguments>
+<arg>css=#download1</arg>
+</arguments>
+<msg timestamp="20181219 15:40:05.860" level="INFO">Simulating Mouse Down on element 'css=#download1'.</msg>
+<status status="PASS" endtime="20181219 15:40:05.908" starttime="20181219 15:40:05.860"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:40:08.909" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:40:08.909" starttime="20181219 15:40:05.909"></status>
+</kw>
+<kw name="Logout" library="Request">
+<kw name="Mouse Over" library="SeleniumLibrary">
+<doc>Simulates hovering mouse over the element ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="site-navigation"]/ul/li[4]/a</arg>
+</arguments>
+<msg timestamp="20181219 15:40:08.910" level="INFO">Simulating Mouse Over on element 'xpath=//*[@id="site-navigation"]/ul/li[4]/a'.</msg>
+<status status="PASS" endtime="20181219 15:40:08.986" starttime="20181219 15:40:08.910"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=//*[@id="site-navigation"]/ul/li[4]/a</arg>
+</arguments>
+<msg timestamp="20181219 15:40:08.987" level="INFO">Clicking element 'xpath=//*[@id="site-navigation"]/ul/li[4]/a'.</msg>
+<status status="PASS" endtime="20181219 15:40:09.034" starttime="20181219 15:40:08.986"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20181219 15:40:14.035" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20181219 15:40:14.035" starttime="20181219 15:40:09.034"></status>
+</kw>
+<status status="PASS" endtime="20181219 15:40:14.035" starttime="20181219 15:40:08.910"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20181219 15:40:19.037" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20181219 15:40:19.037" starttime="20181219 15:40:14.036"></status>
+</kw>
+<status status="PASS" endtime="20181219 15:40:19.037" starttime="20181219 15:39:11.214"></status>
+</kw>
+<kw type="teardown" name="Cerrar Navegador" library="Acceso">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" endtime="20181219 15:40:19.568" starttime="20181219 15:40:19.038"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20181219 15:40:22.570" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20181219 15:40:22.570" starttime="20181219 15:40:19.569"></status>
+</kw>
+<status status="PASS" endtime="20181219 15:40:22.570" starttime="20181219 15:40:19.038"></status>
+</kw>
+<doc>Prueba rapida de jenkins para automatizar tests</doc>
+<tags>
+<tag>Lectujenkins</tag>
+</tags>
+<status status="PASS" endtime="20181219 15:40:22.570" critical="yes" starttime="20181219 15:38:39.939"></status>
+</test>
+<status status="PASS" endtime="20181219 15:40:22.661" starttime="20181219 15:38:37.427"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+<stat fail="0" pass="1">Lectujenkins</stat>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Lectulandia" pass="1">Lectulandia</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20181219 15:38:39.938" level="ERROR">Error in file '/Users/rafaelchavez/Desktop/Prueba Jenkins/Recursos/Tests.robot': Importing test library '/Users/rafaelchavez/Desktop/Prueba Jenkins/Recursos/Soporte/PressEnterKey.py' failed: ImportError: No module named PressEnterKey
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Library/Frameworks/Python.framework/Versions/2.7/bin
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload
+  /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages</msg>
+</errors>
+</robot>
