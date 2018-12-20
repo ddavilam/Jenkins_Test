@@ -10,4 +10,4 @@ ${URL} =  https://www.lectulandia.com
 #De interaccion
 ${USUARIO} =    ddavilam
 ${PASS} =   20928566dave
-${BUSQUEDA} =   STEPHEN KING
+${BUSQUEDA} =   JOE HILL
