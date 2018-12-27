@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Prueba Jenkins.iml" filepath="$PROJECT_DIR$/.idea/Prueba Jenkins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Robotframework Salud Vitale/.idea/Robotframework Salud Vitale.iml" filepath="$PROJECT_DIR$/../Robotframework Salud Vitale/.idea/Robotframework Salud Vitale.iml" />
     </modules>
   </component>
 </project>

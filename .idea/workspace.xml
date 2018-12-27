@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3449e3e8-573c-4937-880b-259374cd33de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/.idea/libraries/R_User_Library.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Variable.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/sitemap.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Prueba Jenkins.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Prueba Jenkins.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commit.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/MediaSD.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/MediaSD.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/PO/Request.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/PO/Request.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/SupportSD.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/SupportSD.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/SaludDoctor.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/SaludDoctor.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/MediaSP.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/MediaSP.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/PO/Request.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/PO/Request.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/SupportSP.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/SupportSP.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/SaludPaciente.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/SaludPaciente.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/MediaMP.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/MediaMP.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Request.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Request.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/SupportMP.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/SupportMP.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/SaludMovilP.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/SaludMovilP.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,50 +35,30 @@
     <favorites_list name="Prueba Jenkins" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lectulandia.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#275#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Recursos/Request.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#95#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Robotframework Salud Vitale" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Recursos/Request.robot" />
+        <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Variable.robot" />
+        <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/SupportSP.robot" />
+        <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/SaludMovilP.robot" />
+        <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/SupportMP.robot" />
+        <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/MediaMP.robot" />
+        <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Request.robot" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-14" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1366" />
-    <option name="height" value="681" />
+    <option name="height" value="675" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -77,7 +73,12 @@
   <component name="PropertiesComponent">
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="settings.editor.selected.configurable" value="RSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -105,10 +106,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="679" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1366" height="675" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.2613293" />
+      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.27265862" />
       <window_info id="Structure" order="1" sideWeight="0.5025381" side_tool="true" weight="0.25755286" />
       <window_info id="Favorites" order="2" sideWeight="0.5025381" side_tool="true" weight="0.25755286" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -118,11 +118,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32879046" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="GitLabIntegration" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32761577" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32933104" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="9" weight="0.32933104" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32933104" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32933104" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -134,6 +134,16 @@
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Recursos/Request.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lectulandia.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -144,12 +154,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Recursos/Request.robot">
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/PO/Variables.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <element signature="e#0#95#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/SaludPaciente.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/PO/Request.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/SupportSP.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/sitemap.robot">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Variable.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Request.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/MediaMP.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/SupportMP.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/SaludMovilP.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#306#0" expanded="true" />
           </folding>
         </state>
       </provider>
