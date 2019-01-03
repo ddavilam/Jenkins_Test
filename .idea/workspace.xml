@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3449e3e8-573c-4937-880b-259374cd33de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Variable.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/sitemap.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Prueba Jenkins.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Prueba Jenkins.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/MediaSD.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/MediaSD.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/PO/Request.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/PO/Request.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/SupportSD.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Resources/SupportSD.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/Results/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/SaludDoctor.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_doctor/SaludDoctor.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/MediaSP.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/MediaSP.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/PO/Request.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/PO/Request.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/SupportSP.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/SupportSP.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/SaludPaciente.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/SaludPaciente.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/MediaMP.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/MediaMP.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Request.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Request.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/SupportMP.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/SupportMP.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/SaludMovilP.robot" beforeDir="false" afterPath="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/SaludMovilP.robot" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +17,13 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Robotframework Salud Vitale" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,14 +51,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Prueba Jenkins" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Prueba Jenkins" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="RSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -103,14 +98,22 @@
       <option name="presentableId" value="Default" />
       <updated>1545240847689</updated>
     </task>
+    <task id="LOCAL-00001" summary="Mejora de robot (web-movil_paciente)">
+      <created>1545943488304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545943488304</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="675" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.49746192" visible="true" weight="0.27265862" />
-      <window_info id="Structure" order="1" sideWeight="0.5025381" side_tool="true" weight="0.25755286" />
-      <window_info id="Favorites" order="2" sideWeight="0.5025381" side_tool="true" weight="0.25755286" />
+      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.28021148" />
+      <window_info id="Structure" order="1" sideWeight="0.50383633" side_tool="true" weight="0.27265862" />
+      <window_info id="Favorites" order="2" sideWeight="0.50383633" side_tool="true" weight="0.27265862" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -118,11 +121,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32761577" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32933104" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924472" weight="0.32761577" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49848944" visible="true" weight="0.32933104" />
       <window_info anchor="bottom" id="GitLabIntegration" order="9" weight="0.32933104" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32933104" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151056" side_tool="true" weight="0.32933104" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32933104" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32933104" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -130,10 +134,11 @@
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mejora de robot (web-movil_paciente)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mejora de robot (web-movil_paciente)" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Recursos/Request.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -243,6 +248,16 @@
           <folding>
             <element signature="e#0#306#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LEEME.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="115" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="115" />
         </state>
       </provider>
     </entry>
