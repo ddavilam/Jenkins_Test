@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3449e3e8-573c-4937-880b-259374cd33de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +15,13 @@
     <favorites_list name="Prueba Jenkins" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -51,6 +58,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -62,7 +70,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,13 +112,20 @@
       <option name="project" value="LOCAL" />
       <updated>1545943488304</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Nueva rama para probar gitlab-ci">
+      <created>1546546249944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546546249944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1366" height="675" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.28021148" />
+      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.2839879" />
       <window_info id="Structure" order="1" sideWeight="0.50383633" side_tool="true" weight="0.27265862" />
       <window_info id="Favorites" order="2" sideWeight="0.50383633" side_tool="true" weight="0.27265862" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -136,7 +150,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mejora de robot (web-movil_paciente)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mejora de robot (web-movil_paciente)" />
+    <MESSAGE value="Nueva rama para probar gitlab-ci" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nueva rama para probar gitlab-ci" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Recursos/Request.robot">
@@ -260,6 +275,9 @@
           <caret line="3" column="115" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="115" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
