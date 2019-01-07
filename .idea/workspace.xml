@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3449e3e8-573c-4937-880b-259374cd33de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commit.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546608132298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creando imagen docker">
+      <created>1546867801358</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546867801359</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -187,7 +194,8 @@
     <MESSAGE value="Mejora de robot (web-movil_paciente)" />
     <MESSAGE value="Nueva rama para probar gitlab-ci" />
     <MESSAGE value="Comenzando pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comenzando pipeline" />
+    <MESSAGE value="Creando imagen docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creando imagen docker" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Recursos/Request.robot">
