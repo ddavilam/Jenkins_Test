@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3449e3e8-573c-4937-880b-259374cd33de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,10 +15,14 @@
     <favorites_list name="Prueba Jenkins" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="57" selection-start-column="57" selection-end-column="57" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -42,13 +46,14 @@
         <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/SupportMP.robot" />
         <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/MediaMP.robot" />
         <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Request.robot" />
+        <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1366" />
-    <option name="height" value="675" />
+    <option name="height" value="677" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -58,7 +63,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,12 +74,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="CodeInsightConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -93,6 +98,19 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lectulandia.robot" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -119,13 +137,29 @@
       <option name="project" value="LOCAL" />
       <updated>1546546249944</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Comenzando pipeline">
+      <created>1546608132297</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546608132298</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="675" extended-state="0" />
+    <frame x="0" y="23" width="1366" height="677" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.2839879" />
+      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.29229608" />
       <window_info id="Structure" order="1" sideWeight="0.50383633" side_tool="true" weight="0.27265862" />
       <window_info id="Favorites" order="2" sideWeight="0.50383633" side_tool="true" weight="0.27265862" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -134,13 +168,14 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924472" weight="0.32761577" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49848944" visible="true" weight="0.32933104" />
-      <window_info anchor="bottom" id="GitLabIntegration" order="9" weight="0.32933104" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50151056" side_tool="true" weight="0.32933104" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49773413" visible="true" weight="0.36581197" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="9" sideWeight="0.5007553" weight="0.32820514" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49924472" side_tool="true" weight="0.32820514" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32933104" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32933104" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -151,7 +186,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mejora de robot (web-movil_paciente)" />
     <MESSAGE value="Nueva rama para probar gitlab-ci" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nueva rama para probar gitlab-ci" />
+    <MESSAGE value="Comenzando pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comenzando pipeline" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Recursos/Request.robot">
@@ -277,7 +313,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="57" selection-start-column="57" selection-end-column="57" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
