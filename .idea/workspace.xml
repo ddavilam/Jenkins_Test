@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3449e3e8-573c-4937-880b-259374cd33de" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="3449e3e8-573c-4937-880b-259374cd33de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GitLinkConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Prueba Jenkins.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Prueba Jenkins.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
+    </list>
+>>>>>>> 2482f11c9621c42e5d1557a4306e1ce53de6c15c
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +39,14 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,19 +64,25 @@
       <list>
         <option value="$PROJECT_DIR$/Recursos/Request.robot" />
         <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Variable.robot" />
-        <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/SupportSP.robot" />
         <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/SaludMovilP.robot" />
         <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/SupportMP.robot" />
         <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/MediaMP.robot" />
         <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente_movil/Resources/PO/Request.robot" />
         <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
+        <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/PO/Variables.robot" />
+        <option value="$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/SupportSP.robot" />
+        <option value="$PROJECT_DIR$/LEEME.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1366" />
+<<<<<<< HEAD
     <option name="height" value="674" />
+=======
+    <option name="height" value="675" />
+>>>>>>> 2482f11c9621c42e5d1557a4306e1ce53de6c15c
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -80,8 +109,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="editor.config.ad.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CodeInsightConfigurable" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -112,9 +142,33 @@
       <module name="" />
       <method v="2" />
     </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="docker push ddavilam/lectutalandia:tagname" />
+          <option name="containerName" value="lectulandia" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="registry.gitlab.com/ddavilam/prueba-de-jenkins:tag" />
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -172,17 +226,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="23" width="1366" height="678" extended-state="6" />
     <layout>
       <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.35800603" />
       <window_info id="Structure" order="1" sideWeight="0.50383633" side_tool="true" weight="0.27265862" />
       <window_info id="Favorites" order="2" sideWeight="0.50383633" side_tool="true" weight="0.27265862" />
+=======
+    <frame x="0" y="23" width="1366" height="675" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4907162" visible="true" weight="0.32326284" />
+      <window_info id="Structure" order="1" sideWeight="0.50928384" side_tool="true" weight="0.30966768" />
+      <window_info id="Favorites" order="2" sideWeight="0.50928384" side_tool="true" weight="0.30966768" />
+>>>>>>> 2482f11c9621c42e5d1557a4306e1ce53de6c15c
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924472" weight="0.32761577" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49773413" visible="true" weight="0.3651877" />
@@ -191,11 +254,21 @@
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32933104" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32933104" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+=======
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924472" weight="0.3253833" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5067976" side_tool="true" weight="0.3567753" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32879046" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32933104" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="11" sideWeight="0.5007553" weight="0.3270869" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49320242" visible="true" weight="0.3567753" />
+      <window_info anchor="bottom" x="0" y="93" width="1366" height="675" id="Docker" order="13" weight="0.32761577" />
+>>>>>>> 2482f11c9621c42e5d1557a4306e1ce53de6c15c
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="R Graphics" order="3" weight="0.32930514" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.32930514" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4907162" visible="true" weight="0.31873113" />
@@ -223,6 +296,7 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="Mejora de robot (web-movil_paciente)" />
     <MESSAGE value="Nueva rama para probar gitlab-ci" />
     <MESSAGE value="Comenzando pipeline" />
@@ -251,41 +325,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/PO/Variables.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/SaludPaciente.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/PO/Request.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/SupportSP.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#173#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -346,10 +390,57 @@
     <entry file="file://$PROJECT_DIR$/.editorconfig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/prueba-de-jenkins/.gitlab-ci.yml" />
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/SupportSP.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8680">
+          <caret line="684" column="54" selection-start-line="684" selection-start-column="54" selection-end-line="684" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/LEEME.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/SaludPaciente.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Reports/errores de &quot;test.saludvitale.com&quot;/Error 1/log-20181116-154810.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Robotframework Salud Vitale/salud_paciente/Resources/PO/Variables.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///bin/bash">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/LEEME.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="115" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="115" />
+        <state relative-caret-position="45">
+          <caret line="3" column="115" selection-start-line="3" selection-start-column="115" selection-end-line="3" selection-end-column="115" />
         </state>
       </provider>
     </entry>
