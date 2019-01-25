@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3449e3e8-573c-4937-880b-259374cd33de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commit.txt" afterDir="false" />
-    </list>
+    <list default="true" id="3449e3e8-573c-4937-880b-259374cd33de" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +12,12 @@
     <favorites_list name="Prueba Jenkins" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="57" selection-start-column="57" selection-end-column="57" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -32,9 +29,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="ProbarCI" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/LEEME.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,19 +50,21 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1366" />
-    <option name="height" value="677" />
+    <option name="height" value="674" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <compactDirectories Scope="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,7 +76,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546867801359</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Actualizar master">
+      <created>1548422988360</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548422988360</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -164,9 +172,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="677" extended-state="0" />
+    <frame x="0" y="23" width="1366" height="678" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.29229608" />
+      <window_info content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4961637" visible="true" weight="0.35800603" />
       <window_info id="Structure" order="1" sideWeight="0.50383633" side_tool="true" weight="0.27265862" />
       <window_info id="Favorites" order="2" sideWeight="0.50383633" side_tool="true" weight="0.27265862" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -177,9 +185,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935154" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924472" weight="0.32761577" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49773413" visible="true" weight="0.36581197" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49773413" visible="true" weight="0.3651877" />
       <window_info anchor="bottom" id="GitLabIntegration" order="9" sideWeight="0.5007553" weight="0.32820514" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49924472" side_tool="true" weight="0.32820514" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49924472" side_tool="true" weight="0.3281787" />
       <window_info anchor="bottom" id="Python Console" order="11" weight="0.32933104" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32933104" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -189,13 +197,38 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" x="512" y="165" width="341" height="394" id="Project" order="0" sideWeight="0.4907162" visible="true" weight="0.31873113" />
+      <window_info id="Structure" order="1" sideWeight="0.50928384" side_tool="true" weight="0.30966768" />
+      <window_info id="Favorites" order="2" sideWeight="0.50928384" side_tool="true" weight="0.30966768" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32879046" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924472" weight="0.3253833" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5060423" side_tool="true" weight="0.3567753" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32879046" />
+      <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.32933104" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="11" sideWeight="0.5007553" weight="0.3270869" />
+      <window_info anchor="bottom" x="0" y="93" width="1366" height="675" id="Docker" order="12" show_stripe_button="false" weight="0.32879046" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4939577" visible="true" weight="0.3567753" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" weight="0.32930514" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.32930514" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mejora de robot (web-movil_paciente)" />
     <MESSAGE value="Nueva rama para probar gitlab-ci" />
     <MESSAGE value="Comenzando pipeline" />
     <MESSAGE value="Creando imagen docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creando imagen docker" />
+    <MESSAGE value="Actualizar master" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizar master" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Recursos/Request.robot">
