@@ -1,3 +1,43 @@
+commit 0dc0d8da64b25b2a6041fa6c645f428a1678d13e
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Fri Jan 25 16:06:27 2019 -0400
+
+    Registrando mi primera imagen en gitlab
+
+commit 042f607243c09845395e25ebb6f86b1e29ca8b2f
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Fri Jan 25 11:35:23 2019 -0400
+
+    Actualizando archivo
+    gitlab-ci
+
+commit 20fe3edb463bbca8ee15110315806c2a37f20329
+Merge: 6156cd6 ff90e38
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Fri Jan 25 11:26:35 2019 -0400
+
+    Actualizando archivo
+    gitlab-ci
+
+commit 6156cd6df7a6dc0e4ffc86c649e1c827e7d883e7
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Fri Jan 25 11:23:24 2019 -0400
+
+    Actualizar gitlab-ci
+
+commit ff90e38a72a9c05959e88f5947127f5e9c97b845
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Fri Jan 25 13:53:27 2019 +0000
+
+    Update .gitlab-ci.yml
+
+commit d52f547d8e1453f27208dcd35870bd1dded53b01
+Merge: 9789e0d 2482f11
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Fri Jan 25 09:39:45 2019 -0400
+
+    Actualizando repositorio master2
+
 commit 9789e0d0d59106929a1abedb495ace5a71d2688e
 Author: David Davila <craddock_box@hotmail.com>
 Date:   Fri Jan 25 09:33:48 2019 -0400
@@ -9,6 +49,41 @@ Author: David Davila <craddock_box@hotmail.com>
 Date:   Fri Jan 25 09:29:47 2019 -0400
 
     Actualizar master
+
+commit 2482f11c9621c42e5d1557a4306e1ce53de6c15c
+Merge: 6aa6241 42520f3
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Fri Jan 25 13:25:28 2019 +0000
+
+    Merge branch 'ProbarCI' into 'master'
+    
+    Probar ci
+    
+    See merge request ddavilam/prueba-de-jenkins!2
+
+commit 42520f3b5532bb879b1fb8e59d6e1f4541914e34
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Fri Jan 25 13:22:39 2019 +0000
+
+    Update .gitlab-ci.yml
+
+commit 0170cf9a909c888c9ace4a25d148d9ccc5fd2943
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Tue Jan 8 10:54:43 2019 -0400
+
+    (¬¬)
+
+commit 6aa6241ef2c9bb5722c65b49a504b3c973180bfe
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Mon Jan 7 20:23:42 2019 +0000
+
+    Update .gitlab-ci.yml
+
+commit 82297acfede4a4f7455caa9bddf1d939185a7443
+Author: David Davila <craddock_box@hotmail.com>
+Date:   Mon Jan 7 14:47:38 2019 +0000
+
+    Update .gitlab-ci.yml
 
 commit 8cbc35f9c12244e9eb483866a87115fa88878f3f
 Author: David Davila <craddock_box@hotmail.com>

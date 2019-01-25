@@ -4,6 +4,7 @@
 stages:
     - build
     - test
+    - deploy
 
 build:
     stage:  build
@@ -17,3 +18,8 @@ test:
     script:
         - echo  "Testing"
         - test -f "build/123.txt"
+
+deploy:
+    stage: deploy
+    script:
+        - pybot -d Results --reporttitle "NOMBRE PARA EL REPORTE" --logtitle "NOMBRE PARA EL LOG" Lectulandia.robot
