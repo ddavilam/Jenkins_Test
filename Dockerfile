@@ -1,10 +1,14 @@
-FROM	debian:stretch
+FROM	ubuntu:latest
 
 RUN	apt-get update \
  && apt-get install -y \
-  git \
-  vim
+  python-pip \
+  gcc \
+  phantomjs \
 
-COPY    abc.txt /src/abc.txt
+  && pip install robotframework \
+  && pip install robotframework-seleniumlibrary
+
+COPY    Dockerfile /src/Dockerfile
 
 CMD ["echo", "Hola CI Robotframework"]
