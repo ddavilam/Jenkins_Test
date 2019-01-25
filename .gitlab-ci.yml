@@ -6,7 +6,7 @@ stages:
 build:
     stage:  build
     script:
-        - pybot -d Results --reporttitle "NOMBRE PARA EL REPORTE" --logtitle "NOMBRE PARA EL LOG" Lectulandia.robot
+        - robot -d Results --reporttitle "NOMBRE PARA EL REPORTE" --logtitle "NOMBRE PARA EL LOG" Lectulandia.robot
 
 test:
     stage: test
