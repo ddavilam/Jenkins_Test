@@ -1,4 +1,5 @@
 stages:
+<<<<<<< HEAD
     - deploy
     - test
     - reporting
@@ -55,3 +56,7 @@ expire_in: 1 week
 
 paths:
     - public
+=======
+    -build
+    -test
+>>>>>>> ff90e38a72a9c05959e88f5947127f5e9c97b845
