@@ -1,10 +1,10 @@
 build_image:
-  image: registry.gitlab.com/ddavilam/prueba-de-jenkins:latest
+  image: docker:git
   services:
   - docker:dind
   script:
     - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
-    - docker build -t registry.gitlab.com/jamkit/robot-framework .
-    - docker push registry.gitlab.com/jamkit/robot-framework:latest
+    - docker build -t registry.gitlab.com/ddavilam/prueba-de-jenkins .
+    - docker push registry.gitlab.com/ddavilam/prueba-de-jenkins:latest
   only:
     - master
