@@ -1,3 +1,5 @@
+image: registry.gitlab.com/ddavilam/prueba-de-jenkins:latest
+
 stages:
     - build
     - test
