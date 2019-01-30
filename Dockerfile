@@ -2,6 +2,10 @@ FROM	ubuntu:latest
 
 LABEL name="Docker build for acceptance testing using the robot framework"
 
+ENV FIREFOX_VERSION 64.0.2
+ENV GECKODRIVER_VERSION 0.24.0
+ENV CHROMEDRIVER_VERSION 2.45
+
 RUN apt-get update
 RUN apt-get install -y build-essential libssl-dev libffi-dev python-dev
 RUN apt-get install -y python-pip python-dev gcc phantomjs firefox

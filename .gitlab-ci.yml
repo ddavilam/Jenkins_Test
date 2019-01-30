@@ -1,3 +1,7 @@
+stages:
+    - build_image
+    - test_robot
+
 build_image:
   image: docker:git
   services:
@@ -8,3 +12,9 @@ build_image:
     - docker push registry.gitlab.com/ddavilam/prueba-de-jenkins:latest
   only:
     - master
+
+test_robot:
+    image: registry.gitlab.com/ddavilam/prueba-de-jenkins:latest
+
+    script:
+        -
